@@ -1,0 +1,84 @@
+body {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: #61122f;
+  font-family: "Gill Sans", sans-serif;
+}
+
+h1 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+#myfooter {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 1em;
+}
+
+.section-item-title {
+	text-align: center;
+	/*font-size: 1.25em;*/
+}
+
+
+.menu-item-sub {
+  padding: 1em;
+  display: inline-block;
+  background: gray;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+.menu-item .menu-item-sub:hover {
+  background: #c9504c;
+}
+
+.section-item-content {
+  height: 12em;
+  overflow: hidden;
+}
+
+p.content {
+  height: 20em;
+  margin: 1em;
+  padding: 1em;
+  overflow: auto;
+  font-size: 1em;
+}
+
+#main-content {
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 5em;
+  overflow: hidden;
+}
+
+#nav-list {
+  text-align: center;
+  background: gray;
+}
+#nav-list a{
+  color: white;
+}
+#nav-list a:hover{
+  background: #c9504c;
+}
