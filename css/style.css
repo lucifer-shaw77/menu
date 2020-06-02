@@ -1,84 +1,86 @@
 body {
-  font-size: 1.6em;
-  color: #fff;
-  background-color: #61122f;
-  font-family: "Gill Sans", sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
 }
 
-h1 {
-  margin-bottom: 1em;
-  text-align: center;
-  font-size: 1.75em;
-}
-
-#myfooter {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
-}
-
-.fixed-bottom {
-  position: fixed;
-  bottom: 0;
-  width:100%;
-}
-
+/** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  height: 65px;
+  background-color: #4287f5;   
   border-radius: 0;
   border: 0;
-}
-
-.navbar-brand {
-  padding-top: 1em;
-}
-
-.section-item-title {
-	text-align: center;
-	/*font-size: 1.25em;*/
+  margin: 0;
+  border-bottom: 1px solid black;
 }
 
 
-.menu-item-sub {
-  padding: 1em;
-  display: inline-block;
-  background: gray;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-radius: 1em;
+.navbar-brand{
+  margin-left: 25px;
+}
+.container{
+  padding: 0;
+}
+.navbar-brand h1{
+  font-size: 1.5em;
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
 }
 
-.menu-item .menu-item-sub:hover {
-  background: #c9504c;
+
+#nav-list{
+  margin-top: 0;
 }
 
-.section-item-content {
-  height: 12em;
-  overflow: hidden;
+li{
+  background-color: #FFFFCD;
+  margin:0;
 }
 
-p.content {
-  height: 20em;
-  margin: 1em;
-  padding: 1em;
-  overflow: auto;
-  font-size: 1em;
+
+#li-1, #li-2, #li-3{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right:1px solid black;
 }
 
-#main-content {
-  margin: 0 auto;
-  width: 90%;
-  margin-bottom: 5em;
-  overflow: hidden;
+
+.navbar-header button.navbar-toggle{
+  margin-right: 25px;
+  border: 1px solid black;  
+}
+.navbar-header .icon-bar{
+  border: 2px solid black;
 }
 
-#nav-list {
-  text-align: center;
-  background: gray;
+#collapsable-nav{
+  border: 0;
+  margin: 0;
+  padding-top: 0;
 }
+
 #nav-list a{
-  color: white;
+  color: black;
 }
-#nav-list a:hover{
-  background: #c9504c;
+
+#menu{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section {
+  margin: 10px;
+  border: 1px solid black;
+  height: auto;
+  background-color: #ff6666;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
 }
